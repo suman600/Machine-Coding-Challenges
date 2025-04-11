@@ -105,6 +105,9 @@
             font-size: 32px;
             font-weight: 900;
         }
+        .time-display span{
+            width: 60px;
+        }
         .progressbar{
             width: 100%;
             border: 1px solid #fff;
@@ -145,10 +148,7 @@
         </div>
     </div>
 
-    <div class="time-display" id="timeDisplay">00 : 00 : 00</div>
-    <div class="progressbar" id="progressbar">
-        <span></span>
-    </div>
+    <div class="time-display" id="timeDisplay"><span>00</span> : <span>00</span> : <span>00</span></div>
     <div class="item-action">
         <button class="btn btn-start" id="start">Start</button>
         <button class="btn btn-stop" id="pause">Stop</button>
@@ -156,6 +156,6 @@
         <button class="btn btn-reset" id="reset">Reset</button>
     </div>
 </div>
-<script src="./main.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
 </body>
 </html>
