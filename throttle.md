@@ -1,5 +1,4 @@
-## Overview
-
+## Throttle Functions
 The throttle function ensures that a function executes at most once every specified delay, even if it is triggered continuously. Here, it is applied to an input field to log the value once every 500ms while typing.
 
 ## Code Example

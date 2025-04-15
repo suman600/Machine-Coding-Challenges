@@ -1,5 +1,10 @@
+## JavaScript Task Scheduler
+A JavaScript Task Scheduler manages and controls the execution timing of asynchronous tasks, ensuring they run in a specific order or with controlled concurrency. It's useful for rate-limiting, batching, or delaying task execution in web apps.
 
-# JavaScript Task Scheduler
+## Code Example
+
+Below is the JavaScript code used in this example:
+
 
 ```js
 function createScheduler() {
@@ -47,5 +52,3 @@ Starting scheduler test...
 ✅ Task 2 after 2s           // after 3 seconds total
 ✅ Task 3 after 1.5s         // after 4.5 seconds total
 ```
-
----

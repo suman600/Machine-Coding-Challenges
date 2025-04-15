@@ -1,20 +1,10 @@
-# LRU Cache (Search Bar History)
-
-## Overview
+## LRU Cache (Search Bar History)
 This is a simple **Least Recently Used (LRU) Cache** implementation in JavaScript using `Map`. It stores recent search queries and removes the oldest one when the cache reaches its capacity. This is useful for search bars that remember a limited number of past searches.
 
-## Features
-- Stores a fixed number of recent search queries.
-- Moves accessed queries to the most recently used position.
-- Removes the least recently used query when the cache is full.
-- Retrieves the search history in **most recent first** order.
+## Code Example
 
-## Implementation
-The cache uses:
-- **Map** for O(1) lookups and maintaining insertion order.
-- **A fixed capacity** to control the number of stored search terms.
+Below is the JavaScript code used in this example:
 
-## Code
 ```javascript
 class LRUCache {
   constructor(capacity) {
@@ -65,8 +55,3 @@ Search History: [ 'YT', 'google', 'yahoo' ]
 Searched: "FB"
 Search History: [ 'FB', 'YT', 'google' ]
 ```
-
-## Use Cases
-✅ Search bar history
-✅ Auto-suggestions in a search box
-✅ Recently viewed items

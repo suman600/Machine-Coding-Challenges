@@ -1,10 +1,10 @@
-# JavaScript Curried Sum Functions
+## JavaScript Curried Sum Functions
 
-This repository contains two implementations of a curried sum function in JavaScript.
+JavaScript curried sum functions break down a function that takes multiple arguments into a series of functions that each take one argument. This technique allows partial application and more flexible, reusable code.
 
-## 📌 Function Implementations
 
-Below are two different implementations of the curried sum function.
+## Code Example
+Below is the JavaScript code used in this example:
 
 ### 🏷️ Implementation 1
 
@@ -21,10 +21,9 @@ function sum(a) {
 
 console.log(sum(1)(5)());      // 6
 console.log(sum(1)(5)(8)());   // 14
-console.log(sum(1)(4)(6)(9)()); // 20
 ```
 
-### 🏷️ Implementation 2 (Supports Multiple Arguments)
+### Implementation 2
 
 ```javascript
 function sum(a) {
@@ -48,8 +47,4 @@ console.log(sum(1, 4)(5, 9)());   // 19
 console.log(sum(1, 2, 3)(4, 5)(6, 7, 8)()); // 36
 console.log(sum()());             // 0
 ```
-
----
-
-These implementations demonstrate how to use currying to create flexible sum functions that can accept an arbitrary number of arguments across multiple calls.
 

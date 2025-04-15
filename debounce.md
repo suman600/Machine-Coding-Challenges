@@ -1,4 +1,4 @@
-## Overview
+## Javascript debounce Functions
 
 The debounce function delays execution until a specified time has passed since the last invocation. Here, it's applied to an input field to log the value 400ms after typing stops.
 
