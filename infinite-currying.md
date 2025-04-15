@@ -6,7 +6,7 @@ JavaScript curried sum functions break down a function that takes multiple argum
 ## Code Example
 Below is the JavaScript code used in this example:
 
-### 🏷️ Implementation 1
+### Implementation 1
 
 ```javascript
 function sum(a) {
